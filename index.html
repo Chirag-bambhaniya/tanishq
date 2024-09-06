@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="website.css">
+    <title>Tanishq</title>
+</head>
+<body>
+    
+    <div id="main" class="w-100 fixed-top" >
+
+        <div class="container d-flex"> 
+
+            <a href="#"><img id="img1" class="mt-3" src="./Image/logo.png" alt="This is logo."></a>
+        
+            <div  class="input-group mt-3  ms-3  justify-content-end">
+
+                <div class="form-outline d-flex w-50 mt-1" data-mdb-input-init>
+
+                    <input id="search-focus" type="text" class="form-control" placeholder="Search for gold jewellery, diamond jewellery and more..." />  
+                         
+                    <div id="search" class="d-flex  justify-content-end rounded-2 position-absolute ">
+                        <a href="#"><i class="bi bi-camera fs-5 me-2 ms-2 text-danger"></i></a>
+                        <a href="#"><i class="bi bi-mic fs-5 me-2 text-danger"></i></a>
+                        <a href="#"><i class="bi bi-search fs-5 me-2 text-danger"></i></a>                       
+                    </div>
+
+                </div>
+
+                <div class="d-flex justify-content-around w-50">
+
+                    <div class="d-block justify-content-around">
+                        <a href="#" class="text-decoration-none text-danger"><i id="icon1" class="bi bi-gem ms-4 "></i>
+                        <p>DIAMOND</p></a>
+                    </div>
+
+                    <div class="d-block text-danger justify-content-around">
+                        <a href="#" class="text-decoration-none text-danger"><i id="icon1" class="bi bi-shop ms-3"></i>
+                        <p>STORES</p></a>
+                    </div>
+
+                    <div id="icon2" class="d-block text-danger justify-content-around">
+                        <a href="#" class="text-decoration-none text-danger"><i id="icon1" class="bi bi-person fs-5 ms-4"></i>
+                        <p>ACCOUNT</p></a>
+                    </div>
+
+                    <div class="d-block text-danger justify-content-around">
+                        <a href="#" class="text-decoration-none text-danger"><i id="icon1" class="bi bi-heart ms-4"></i>
+                        <p>WISHLIST</p></a>
+                    </div>
+
+                    <div class="d-block text-danger justify-content-around ">
+                        <a href="#" class="text-decoration-none text-danger"><i id="icon1" class="bi bi-cart3 ms-2"></i> 
+                        <p>CART</p></a>
+                    </div>
+
+                </div>
+
+            </div>
+
+      </div>
+
+    </div>
+
+    <div class="w-100 d-flex justify-content-around" style="margin-top: 80px">
+
+        <ul class="nav">
+        
+            <li class="nav-item dropdown">
+                <a id="nav_link" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">ALL JEWELLERY</a>
+                <ul class="dropdown-menu shadow">
+                    <div class="d-flex">
+                        <div>
+                            <h4><a  class="dropdown-header fs-5 text-danger text-decoration-none" href="#">CETAGORY</a></h4>
+                            <li><a id="drop" class="dropdown-item" href="#">ALL JEWELLERY</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">EARRINGS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">PENDANTS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">FINGER RINGS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">MANGALSUTRA</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">CHAINS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">NOSE PIN</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">NECKLACES</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">NECKLACE SET</a></li>
+                        </div>
+                        <div>
+                            <br><br>                            
+                            <li><a id="drop" class="dropdown-item" href="#">BANGLES</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">HOOP EARRINGS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">PENDANTS & EARRING SET</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">GOLD COINS</a></li>
+                            <h4><a class="dropdown-header fs-5 text-danger text-decoration-none" href="#">GIFT CARD</a></h4>  
+                        </div>
+                        <div>
+                            <h4><a class="dropdown-header fs-5 text-danger text-decoration-none" href="#">GENDER</a></h4>
+                            <li><a id="drop" class="dropdown-item" href="#">WOMEN'S JEWELLERY</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">MEN</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">KIDS & TEENS</a></li>
+                        </div>
+                        <div>
+                            <h4><a class="dropdown-header fs-5 text-danger text-decoration-none" href="#">PRICE BAND</a></h4>
+                            <li><a id="drop" class="dropdown-item" href="#"><25K</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">25K-50K</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">50K-1L</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">1L & ABOVE</a></li>  
+                        </div>
+                    </div>
+                </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a id="nav_link" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">GOLD</a>
+                <ul class="dropdown-menu shadow">
+                    <div class="d-flex">
+                        <div>
+                            <h4><a  class="dropdown-header fs-5 text-danger text-decoration-none" href="#">CETAGORY</a></h4>
+                            <li><a id="drop" class="dropdown-item" href="#">BANGLES</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">BRACELETS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">EARRINGS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">GOLD CHAINS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">PENDANTS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">RINGS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">ENGAGEMENT RINGS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">NECKLACES</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">NOSE PINS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">KADAS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">MANGALSUTRA</a></li>
+                        </div>
+                        <div>
+                            <br><br>
+                            <li><a id="drop" class="dropdown-item" href="#">JHUMKAS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">HOOP EARRINGS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">STUD EARRINGS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">DROP EARRINGS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">MAANG TIKKA</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">NECKLACE SET</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">PENDANTS & EARRINGS SET</a></li>
+                        </div>
+                        <div>
+                            <h4><a  class="dropdown-header fs-5 text-danger text-decoration-none" href="#">MEN</a></h4>
+                            <li><a id="drop" class="dropdown-item" href="#">BRACELETS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">CHAINS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">ENGAGEMENT RINGS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">KADAS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">PENDANTS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">RINGS</a></li>
+                        </div>
+                        <div>
+                            <h4><a  class="dropdown-header fs-5 text-danger text-decoration-none" href="#">KIDS</a></h4>
+                            <li><a id="drop" class="dropdown-item" href="#">EARRINGS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">ANKLETS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">BANGLES</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">BRACELETS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">CHAINS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">RINGS</a></li>
+                        </div>
+                        <div>
+                            <h4><a  class="dropdown-header fs-5 text-danger text-decoration-none" href="#">GOLD COIN</a></h4>
+                            <li><a id="drop" class="dropdown-item" href="#">SPECIAL COINS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">1 GRAM</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">2 GRAM</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">4 GRAM</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">5 GRAM</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">8 GRAM</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">10 GRAM</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">25 GRAM</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">30 GRAM</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">50 GRAM</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">100 GRAM</a></li>
+                        </div>
+                        <div>
+                            <h4><a  class="dropdown-header fs-5 text-danger text-decoration-none" href="#">METAL</a></h4>
+                            <div class="d-flex">
+                                <img id="img_nav" class="rounded-circle" src="Group 8.png" alt="rose">
+                                <li><a id="drop" class="dropdown-item" href="#">ROSE</a></li>
+                            </div>
+                            <div class="d-flex">
+                                <img id="img_nav" class="rounded-circle" src="Group 7.png" alt="white">
+                                <li><a id="drop" class="dropdown-item" href="#">WHITE</a></li>
+                            </div>
+                            <div class="d-flex">
+                                <img id="img_nav" class="rounded-circle" src="Group 10.png" alt="yellow">
+                                <li><a id="drop" class="dropdown-item" href="#">YELLOW</a></li>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+            </li>
+            
+            <li class="nav-item dropdown">
+                <a id="nav_link" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"  href="#">DIAMOND</a>
+                <ul class="dropdown-menu shadow">
+                    <div class="d-flex">
+                        <div>
+                            <h4><a  class="dropdown-header fs-5 text-danger text-decoration-none" href="#">CATEGORY</a></h4>
+                            <li><a id="drop" class="dropdown-item" href="#">BANGLES</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">BRACELETS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">MANGALSUTRA</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">NECKLACE SET</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">NECKLACE</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">NOSEPINS</a></li>
+                        </div>
+                        <div>
+                            <h4><a  class="dropdown-header fs-5 text-danger text-decoration-none" href="#">EARRINGS</a></h4>
+                            <li><a id="drop" class="dropdown-item" href="#">DROP EARRINGS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">HOOP EARRINGS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">JHUMKAS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">STUD EARRINGS</a></li> 
+                        </div>
+                        <div>
+                            <h4><a  class="dropdown-header fs-5 text-danger text-decoration-none" href="#">RINGS</a></h4>
+                            <li><a id="drop" class="dropdown-item" href="#">ENGAGEMENT RINGS</a></li>
+                        </div>
+                        <div>
+                            <h4><a  class="dropdown-header fs-5 text-danger text-decoration-none" href="#">PENDANTS</a></h4>
+                            <li><a id="drop" class="dropdown-item" href="#">CASUAL WEAR</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">DAILY WEAR</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">PARTY WEAR</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">PENDANTS & EARRINGS SET</a></li> 
+                            <li><a id="drop" class="dropdown-item" href="#">TRADITIONAL</a></li>
+                        </div>
+                        <div>
+                            <h4><a  class="dropdown-header fs-5 text-danger text-decoration-none" href="#">PRICE</a></h4>
+                            <li><a id="drop" class="dropdown-item" href="#"><25K</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">25K-50K</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">50K-1L</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">1L & ABOVE</a></li> 
+                        </div>
+                    </div>
+                </ul>
+            </li>
+
+            <li class="nav-item dropdown ">
+                <a id="nav_link" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">EARRING</a>
+                <ul class="dropdown-menu shadow">
+                    <div class="d-flex">
+                        <div>
+                            <h4><a  class="dropdown-header fs-5 text-danger text-decoration-none" href="#">STYLE</a></h4>
+                            <div class="d-flex ms-2">
+                                <img id="img_nav" class="rounded-circle" src="./Image/All Earrings 40.png" alt="All Earrings">
+                                <li><a id="drop" class="dropdown-item" href="#">ALL EARRINGS</a></li>
+                            </div>
+                            <div class="d-flex ms-2">
+                                <img id="img_nav" class="rounded-circle" src="./Image/Drop & Danglers 40.png" alt="Drop & Danglers">
+                                <li><a id="drop" class="dropdown-item" href="#">DROP & DANGLERS</a></li>
+                            </div>
+                            <div class="d-flex ms-2">
+                                <img id="img_nav" class="rounded-circle" src="./Image/Group 10(1).png" alt="Group">
+                                <li><a id="drop" class="dropdown-item" href="#">HOOP & HUGGIES</a></li>
+                            </div>
+                            <div class="d-flex ms-2">
+                                <img id="img_nav" class="rounded-circle" src="./Image/Jhumkas.png" alt="jumkhas">
+                                <li><a id="drop" class="dropdown-item" href="#">JHUMKAS</a></li> 
+                            </div>
+                            <div class="d-flex ms-2">
+                                <img id="img_nav" class="rounded-circle" src="./Image/Studs & Tops.png" alt="Studs">
+                                <li><a id="drop" class="dropdown-item" href="#">STUD & TOPS</a></li> 
+                            </div>
+                        </div>
+                        <div>   
+                            <h4><a  class="dropdown-header fs-5 text-danger text-decoration-none" href="#">METAL & STONES</a></h4>
+                            <div class="d-flex">
+                                <img id="img_nav" class="rounded-circle" src="./Image/diamond resized.png" alt="diamond">
+                                <li><a id="drop" class="dropdown-item" href="#">DIAMOND</a></li>
+                            </div>
+                            <div class="d-flex">
+                                <img id="img_nav" class="rounded-circle" src="./Image/gemstone resized.png" alt="gemstone">
+                                <li><a id="drop" class="dropdown-item" href="#">GEMSTONE</a></li>
+                            </div>
+                            <div class="d-flex">
+                                <img id="img_nav" class="rounded-circle" src="./Image/Group 10.png" alt="gold">
+                                <li><a id="drop" class="dropdown-item" href="#">GOLD</a></li>
+                            </div>
+                            <div class="d-flex">
+                                <img id="img_nav" class="rounded-circle" src="./Image/Group 7.png" alt="platinum">
+                                <li><a id="drop" class="dropdown-item" href="#">PLATINUM</a></li> 
+                            </div>
+                            <div class="d-flex">
+                                <img id="img_nav" class="rounded-circle" src="./Image/Group 8.png" alt="rose gold">
+                                <li><a id="drop" class="dropdown-item" href="#">ROSE GOLD</a></li> 
+                            </div>
+                        </div>
+                        <div>
+                            <h4><a  class="dropdown-header fs-5 text-danger text-decoration-none" href="#">OCCASION</a></h4>
+                            <li><a id="drop" class="dropdown-item" href="#">CASUAL WEAR</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">MODERN</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">TRADITIONAL</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">WEDDING</a></li> 
+                            <li><a id="drop" class="dropdown-item" href="#">WORK WEAR</a></li> 
+                        </div>
+                        <div>
+                            <h4><a  class="dropdown-header fs-5 text-danger text-decoration-none" href="#">PRICE</a></h4>
+                            <li><a id="drop" class="dropdown-item" href="#"><25K</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">25K-50K</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">50K-1L</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">1L & ABOVE</a></li> 
+                        </div>
+                        <div>
+                            <h4><a  class="dropdown-header fs-5 text-danger text-decoration-none" href="#">GENDER</a></h4>
+                            <li><a id="drop" class="dropdown-item" href="#">WOMEN'S EARRINGS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">KIDS & TEENS</a></li>
+                        </div>
+                    </div>
+                </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a id="nav_link" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">RINGS</a>
+                <ul class="dropdown-menu shadow">
+                    <div class="d-flex">
+                        <div>
+                            <h4><a  class="dropdown-header fs-5 text-danger text-decoration-none" href="#">ALL RINGS</a></h4>
+                            <li><a id="drop" class="dropdown-item" href="#">CASUAL RINGS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">COUPLE RINGS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">DIAMOND ENGAGEMENT RINGS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">ENGAGEMENT RINGS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">GOLD ENGAGEMENT RINGS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">MEN'S RINGS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">PLATINUM ENGAGEMENT RINGS</a></li>
+                        </div>
+                        <div>
+                            <h4><a  class="dropdown-header fs-5 text-danger text-decoration-none" href="#">BY METAL & STONES</a></h4>
+                            <li><a id="drop" class="dropdown-item" href="#">DIAMOND</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">GEMSTONE</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">GOLD</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">ROSE GOLD</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">SOLITAIRE</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">WHITE GOLD</a></li>
+                        </div>
+                        <div>
+                            <h4><a  class="dropdown-header fs-5 text-danger text-decoration-none" href="#">PRICE RANGE</a></h4>
+                            <li><a id="drop" class="dropdown-item" href="#"><25K</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">25K-50K</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">50K-1L</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">1L & ABOVE</a></li>
+                        </div>
+                    </div>
+                </ul>
+            </li>
+
+            <li class="nav-item">
+                <a id="nav_link" class="nav-link" href="#">BESTSELLERS</a>
+            </li>
+
+            <li class="nav-item">
+                <a id="nav_link" class="nav-link" href="#">MIA</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a id="nav_link" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">COLLECTION</a>
+                <ul class="dropdown-menu shadow">
+                    <div class="d-flex">
+                        <div>
+                            <li><a id="drop" class="dropdown-item" href="#">STRING IT</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">CELESTE</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">DHAROHAR</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">KAKATIYA</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">JOY OF DRESSING</a></li>
+                        </div>
+                        <div>
+                            <li><a id="drop" class="dropdown-item" href="#">ENGAGEMENT RINGS</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">PRETTY IN PINK</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">TALES OF MYSTIQUE</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">IMPRESSIONS OF NATURE</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">STUNNING EVERY EAR</a></li>
+                        </div>
+                        <div>
+                            <li><a id="drop" class="dropdown-item" href="#">AVEER</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">ALEKHYA</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">CHOZHA</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">DOR</a></li>
+                            <li><a id="drop" class="dropdown-item" href="#">RIVAAH X TARUN TAHILIANI</a></li>
+                        </div>
+                    </div>
+                </ul>
+            </li>
+
+            <li class="nav-item">
+                <a id="nav_link" class="nav-link" href="#">WEDDING</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a id="nav_link" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">GIFTING</a>
+                <ul class="dropdown-menu shadow">
+                    <li><a id="drop" class="dropdown-item" href="#">GIFTS FOR LOVED ONES</a></li>
+                    <li><a id="drop" class="dropdown-item" href="#">GIFT CARDS</a></li>
+                    <li><a id="drop" class="dropdown-item" href="#">CORPORATE GIFTING</a></li>
+                </ul>
+            </li>
+
+            <li class="nav-item">
+                <a id="nav_link" class="nav-link" href="#">GOLDEN HARVEST</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a id="nav_link" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">MORE</a>
+                <ul class="dropdown-menu shadow">
+                    <li><a id="drop" class="dropdown-item" href="#">BRANDS</a></li>
+                    <li><a id="drop" class="dropdown-item" href="#">ENCIRCLE</a></li>
+                    <li><a id="drop" class="dropdown-item" href="#">DIGITAL GOLD</a></li>
+                    <li><a id="drop" class="dropdown-item" href="#">CURRENCY SELECTOR</a></li>
+                    <li><a id="drop" class="dropdown-item" href="#">BOOK AN APPOINTMENT</a></li>
+                    <li><a id="drop" class="dropdown-item" href="#">GOLD RATE</a></li>
+                    <li><a id="drop" class="dropdown-item" href="#">FAQ</a></li>
+                </ul>
+            </li>
+
+        </ul>
+
+    </div>
+
+    <div id="img2" class="w-100 mt-1 carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="#"><img class="w-100 d-block" src="./Image/fod-bannerd01.jpg" alt="This image is not support your browser."></a>
+            </div>
+
+            <div class="carousel-item">
+                <a href="#"><img class="w-100 d-block" src="./Image/vday-desktop.jpg" alt="This image is not support your browser."></a>
+            </div>
+            
+            <div class="carousel-item">
+                <a href="#"><img class="w-100 d-block" src="./Image/seson2.jpg" alt="This image is not support your browser."></a>
+            </div>
+            
+            <div class="carousel-item">
+                <a href="#"><img class="w-100 d-block" src="./Image/rivaah-rb-desktop.jpg" alt="This image is not support your browser."></a>
+            </div>
+
+            <div class="carousel-item">
+                <a href="#"><img class="w-100 d-block" src="./Image/gold-ex-desktop.jpg" alt="This image is not support your browser."></a>
+            </div>
+
+        </div>
+        
+        <div class="carousel-indicators">   
+            <li id="carousel_1" class="active rounded-circle" data-bs-target="#img2" data-bs-slide-to="0"></li>
+            <li id="carousel_1" class="rounded-circle" data-bs-target="#img2" data-bs-slide-to="1"></li>
+            <li id="carousel_1" class="rounded-circle" data-bs-target="#img2" data-bs-slide-to="2"></li>
+            <li id="carousel_1" class="rounded-circle" data-bs-target="#img2" data-bs-slide-to="3"></li>
+            <li id="carousel_1" class="rounded-circle" data-bs-target="#img2" data-bs-slide-to="4"></li>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#img2" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#img2" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+    </div>
+
+    <div class="text-center mt-5">
+        <span class="fs-1 text-danger">Best of Tanishq</span><br>
+        <span class="fs-5">Shop the year's most cherished products</span>
+    </div>
+
+    <div class="w-100 container">
+        <img class="w-100" src="Line-Design.png" alt="This image is not support your browser.">
+    </div>
+
+    <div class="container">
+        <div class="d-flex justify-content-around">
+            <div class="card mt-3" style="width: 23%;">
+                <img class="card-img-top w-100 p-2" src="./Image/jumkha.jpg" alt="Card image">
+                <div class="card-body ">
+                    <p class="card-text">Traditional Floral Jhumkas</p>
+                    <a class="btn " href="#">₹ 78865</a>    
+                </div>
+            </div>
+            <div class="card mt-3" style="width: 23%;">
+                <img class="card-img-top w-100 p-2" src="./Image/mangalsutra.jpg" alt="Card image">
+                <div class="card-body ">
+                    <p class="card-text">Sleek Floral Diamond Mangalsutra</p>
+                    <a class="btn " href="#">₹ 60787</a>    
+                </div>
+            </div>
+            <div class="card mt-3" style="width: 23%;">
+                <img class="card-img-top w-100 p-2" src="./Image/Earrings.jpg" alt="Card image">
+                <div class="card-body ">
+                    <p class="card-text">Refined Glam Diamond Drop Earrings</p>
+                    <a class="btn " href="#">₹ 28158</a>    
+                </div>
+            </div>
+            <div class="card mt-3" style="width: 23%;">
+                <img class="card-img-top w-100 p-2" src="./Image/Pendant.jpg" alt="Card image">
+                <div class="card-body ">
+                    <p class="card-text">Opulent Traditional Pendant</p>
+                    <a class="btn " href="#">₹ 33794</a>    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center">
+        <i class="bi bi-dot fs-1"></i>
+        <i class="bi bi-dot fs-1 text-black-50"></i>
+        <i class="bi bi-dot fs-1 text-black-50"></i>
+        <i class="bi bi-dot fs-1 text-black-50"></i>
+        <i class="bi bi-dot fs-1 text-black-50"></i>
+    </div>
+
+    <div class="text-center mt-5">
+        <span class="fs-1 text-danger">Shop By Category</span><br>
+        <span class="fs-5">Browse through your favorite categories. We've got them all!</span>
+    </div>
+
+    <div class="w-100 container">
+        <img class="w-100" src="./Image/Line-Design.png" alt="This image is not support your browser.">
+    </div>
+
+    <div class="container">
+        <div class="d-flex justify-content-around">
+            <div class="card mt-3" style="width: 15%;">
+                <img class="card-img-top w-100" src="./Image/fod-earrings.jpg" alt="Card image">
+                <div class="card-body text-center">
+                    <h4 class="card-title fs-5 text-danger">Earrings</h4>
+                    <a class="btn" href="#">Explore<i class="bi bi-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="card mt-3" style="width: 15%;">
+                <img class="card-img-top w-100 h-75" src="./Image/fod-rings.jpg" alt="Card image">
+                <div class="card-body text-center">
+                    <h4 class="card-title fs-5 text-danger">Finger Rings</h4>
+                    <a class="btn" href="#">Explore<i class="bi bi-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="card mt-3" style="width: 15%;">
+                <img class="card-img-top w-100" src="./Image/fod-pendants.jpg" alt="Card image">
+                <div class="card-body text-center">
+                    <h4 class="card-title fs-5 text-danger">Pendants</h4>    
+                    <a class="btn" href="#">Explore<i class="bi bi-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="card mt-3" style="width: 15%;">
+                <img class="card-img-top w-100" src="./Image/fod-nosepins.jpg" alt="Card image">
+                <div class="card-body text-center">
+                    <h4 class="card-title fs-5 text-danger">Nose Pins</h4> 
+                    <a class="btn" href="#">Explore<i class="bi bi-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="card mt-3" style="width: 15%;">
+                <img class="card-img-top w-100" src="./Image/fod-mangalsutra.jpg" alt="Card image">
+                <div class="card-body text-center">
+                    <h4 class="card-title fs-5 text-danger">Mangalsutras</h4> 
+                    <a class="btn" href="#">Explore<i class="bi bi-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="card mt-3" style="width: 15%;">
+                <img class="card-img-top w-100" src="./Image/fod-chain.jpg" alt="Card image">
+                <div class="card-body text-center">
+                    <h4 class="card-title fs-5 text-danger">Chains</h4>  
+                    <a class="btn" href="#">Explore<i class="bi bi-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="d-flex justify-content-around">
+            <div class="card mt-3" style="width: 15%;">
+                <img class="card-img-top w-100" src="./Image/fod-gold-coins.jpg" alt="Card image">
+                <div class="card-body text-center">
+                    <h4 class="card-title fs-5 text-danger">Gold Coins</h4>
+                    <a class="btn" href="#">Explore<i class="bi bi-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="card mt-3" style="width: 15%;">
+                <img class="card-img-top w-100 h-75" src="./Image/fod-bracelet.jpg" alt="Card image">
+                <div class="card-body text-center">
+                    <h4 class="card-title fs-5 text-danger">Bracelets</h4>
+                    <a class="btn" href="#">Explore<i class="bi bi-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="card mt-3" style="width: 15%;">
+                <img class="card-img-top w-100" src="./Image/fod-bangle.jpg" alt="Card image">
+                <div class="card-body text-center">
+                    <h4 class="card-title fs-5 text-danger">Bangles</h4>    
+                    <a class="btn" href="#">Explore<i class="bi bi-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="card mt-3" style="width: 15%;">
+                <img class="card-img-top w-100" src="./Image/fod-necklace.jpg" alt="Card image">
+                <div class="card-body text-center">
+                    <h4 class="card-title fs-5 text-danger">Neckwear</h4> 
+                    <a class="btn" href="#">Explore<i class="bi bi-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="card mt-3" style="width: 15%;">
+                <img class="card-img-top w-100" src="./Image/fod-necklace-set.jpg" alt="Card image">
+                <div class="card-body text-center">
+                    <h4 class="card-title fs-5 text-danger">Necklace Set</h4> 
+                    <a class="btn" href="#">Explore<i class="bi bi-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="card mt-3" style="width: 15%;">
+                <img class="card-img-top w-100" src="./Image/fod-pendant-set.jpg" alt="Card image">
+                <div class="card-body text-center">
+                    <h4 class="card-title fs-5 text-danger">Pendent Set</h4>  
+                    <a class="btn" href="#">Explore<i class="bi bi-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center mt-5">
+        <span class="fs-1 text-danger">Shop By Collections</span><br>
+        <span class="fs-5">Whatever the occasion, we've got a beautiful piece of jewellery for you.</span>
+    </div>
+
+    <div class="w-100 container">
+        <img class="w-100" src="./Image/Line-Design.png" alt="This image is not support your browser.">
+    </div>
+
+    <div class="container">
+        <div class="d-flex justify-content-around">
+            <div class="card mt-3" style="width: 33%;">
+                <img class="card-img-top w-100" src="./Image/string-it.jpg" alt="Card image">
+                <div class="card-body d-flex justify-content-between">
+                    <h4 class="card-title fs-5 text-danger">String It</h4>
+                    <a class="btn text-end" href="#">Explore<i class="bi bi-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="card mt-3" style="width: 33%;">
+                <img class="card-img-top w-100" src="./Image/italian-connection.jpg" alt="Card image">
+                <div class="card-body d-flex justify-content-between">
+                    <h4 class="card-title fs-5 text-danger">The Italian Connection</h4>
+                    <a class="btn" href="#">Explore<i class="bi bi-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="card mt-3" style="width: 33%;">
+                <img class="card-img-top w-100" src="./Image/engagement-rings.jpg" alt="Card image">
+                <div class="card-body d-flex justify-content-between ">
+                    <h4 class="card-title fs-5 text-danger">Engagement Rings</h4>    
+                    <a class="btn" href="#">Explore<i class="bi bi-chevron-right"></i></a>
+                </div>
+            </div>  
+        </div>
+    </div>
+
+    <div class="text-center mt-5">
+        <span class="fs-1 text-danger">Pick Up Where You Left Off!</span><br>
+        <span class="fs-5">Our products tend to sell out quickly, so don't delay in completing your purchase.</span>
+    </div>
+
+    <div class="w-100 container">
+        <img class="w-100" src="./Image/Line-Design.png" alt="This image is not support your browser.">
+    </div>
+
+    <div class="container">
+        <div class="d-flex justify-content-around">
+            <div class="card mt-3" style="width: 23%;">
+                <img class="card-img-top w-100 p-2" src="./Image/gold_ring.jpg" alt="Card image">
+                <div class="card-body ">
+                    <p id="stock" class="card-text text-danger">Only 1 left in stock</p>
+                    <p id="text" class="card-text">Crossing Sword Gold Finger Ring For Men</p>
+                    <a class="text-decoration-none text-dark" href="#">₹ 41164</a>    
+                </div>
+            </div>
+            <div class="card mt-3" style="width: 23%;">
+                <img class="card-img-top w-100 p-2" src="./Image/gold_ring2.jpg" alt="Card image">
+                <div class="card-body ">
+                    <br>
+                    <p id="text" class="card-text mt-2">Elegant Stunning Gold Ring For Men</p>
+                    <a class="text-decoration-none text-dark" href="#">₹ 40760</a>    
+                </div>
+            </div>
+            <div class="card mt-3" style="width: 23%;">
+                <img class="card-img-top w-100 p-2" src="./Image/gold_ring3.jpg" alt="Card image">
+                <div class="card-body ">
+                    <p id="stock" class="card-text text-danger">Only 1 left in stock</p>
+                    <p id="text" class="card-text">Stylish Antique Ring For Men</p>
+                    <a class="text-decoration-none text-dark" href="#">₹ 70939</a>    
+                </div>
+            </div>
+            <div class="card mt-3" style="width: 23%;">
+                <img class="card-img-top w-100 p-2" src="./Image/fod-earrings.jpg" alt="Card image">
+                <div class="card-body ">
+                    <p id="stock" class="card-text text-danger">Only 1 left in stock</p>
+                    <p id="text" class="card-text">Refined Glam Diamond Drop Earrings</p>
+                    <a class="text-decoration-none text-dark" href="#">₹ 33794</a>
+                    <a id="text1" class="text-decoration-line-through text-black-50 ms-2" href="#">₹ 35573</a>  
+                    <p class="card-text text-danger text-end">On Sale</p>  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center">
+        <i class="bi bi-dot fs-1"></i>
+        <i class="bi bi-dot fs-1 text-black-50"></i>
+        <i class="bi bi-dot fs-1 text-black-50"></i>
+        <i class="bi bi-dot fs-1 text-black-50"></i>
+        <i class="bi bi-dot fs-1 text-black-50"></i>
+    </div>
+
+    <div class="w-100 container">
+        <img class="w-100" src="./Image/gift.jpg" alt="This image is not support your browser.">
+    </div>
+
+    <div class="text-center mt-5">
+        <span class="fs-1 text-danger">Top Sellers</span><br>
+        <span class="fs-5">Love the most to bought the most</span>
+    </div>
+
+    <div class="w-100 container">
+        <img class="w-100" src="./Image/Line-Design.png" alt="This image is not support your browser.">
+    </div>
+
+    <div class="container">
+        <div class="d-flex justify-content-around">
+            <div class="card mt-3" style="width: 23%;">
+                <img class="card-img-top w-100 p-2" src="./Image/coin1.jpg" alt="Card image">
+                <div class="card-body ">
+                    <p id="stock" class="card-text text-light bg-danger p-1" style="width: 20%;">1 gram</p>
+                    <p id="text" class="card-text">1 gram 24 Karat Gold Coin With Lakhshmi</p>
+                    <a class="text-decoration-none text-dark" href="#">₹ 7235</a>    
+                </div>
+            </div>
+            <div class="card mt-3" style="width: 23%;">
+                <img class="card-img-top w-100 p-2" src="./Image/coins2.jpg" alt="Card image">
+                <div class="card-body ">
+                    <p id="stock" class="card-text text-light bg-danger p-1" style="width: 20%;">2 gram</p>
+                    <p id="text" class="card-text">2 gram 24 Karat Gold Coin</p>
+                    <a class="text-decoration-none text-dark" href="#">₹ 14470</a>    
+                </div>
+            </div>
+            <div class="card mt-3" style="width: 23%;">
+                <img class="card-img-top w-100 p-2" src="./Image/Biscuit.jpg" alt="Card image">
+                <div class="card-body ">
+                    <p id="stock" class="card-text text-light bg-danger p-1" style="width: 22%;">25 gram</p>
+                    <p id="text" class="card-text">25 gram 24 Karat Gold Biscuit</p>
+                    <a class="text-decoration-none text-dark" href="#">₹ 180039</a>    
+                </div>
+            </div>
+            <div class="card mt-3" style="width: 23%;">
+                <img class="card-img-top w-100 p-2" src="./Image/coins3.jpg" alt="Card image">
+                <div class="card-body ">
+                    <p id="stock" class="card-text text-light bg-danger p-1" style="width: 20%;">5 gram</p>
+                    <p id="text" class="card-text">5 gram 24 Karat Gold Coin</p>
+                    <a class="text-decoration-none text-dark" href="#">₹ 36175</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center">
+        <i class="bi bi-dot fs-1"></i>
+        <i class="bi bi-dot fs-1 text-black-50"></i>
+        <i class="bi bi-dot fs-1 text-black-50"></i>
+        <i class="bi bi-dot fs-1 text-black-50"></i>
+        <i class="bi bi-dot fs-1 text-black-50"></i>
+    </div>
+
+    <div class="w-100 ">
+        <img class="w-100" src="./Image/Line-Design.png" alt="This image is not support your browser.">
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
